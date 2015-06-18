@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	padding: 0;
+	margin: 0;
 }
 
 ol, ul {
@@ -119,12 +121,12 @@ body {
 
 .container {
 	max-width: 720px;
-	height: 100%;
 	background-color: #e41a18;
 	margin: 0 auto;
+	padding: 0;
 }
 
-.container > h1 {
+h1 {
 	text-align: center;
 	font-size: 24px;
 	color: white;
@@ -133,7 +135,7 @@ body {
 	padding-top: 7.5%;
 }
 
-.container > h2 {
+h2 {
 	font-family: 'montserratbold';
 	padding-top: 10%;
 	text-align: center;
@@ -146,8 +148,8 @@ body {
 form input[type="text"], input[type="password"] {
 	font-family: 'montserratregular';
 	width: 75%;
-	margin: 2.5% 12.5% 0% 12.5%;
-	height: 65px;
+	margin: 4.5vh 12.5% 0 12.5%;
+	height: 55px;
 	border-radius: 5px;
 	border: none;
 	padding-left: 5%;
@@ -157,7 +159,7 @@ form input[type="text"], input[type="password"] {
 
 form input[type="checkbox"] {
 	margin-left: 12.5%;
-	margin-top: 2.5%;
+	margin-top: 3.5vh;
 }
 
 label {
@@ -169,7 +171,7 @@ label {
 form input[type="submit"] {
 	font-family: 'montserratregular';
 	width: 75%;
-	margin: 2.5% 12.5% 0% 12.5%;
+	margin: 2.5vh 12.5% 0% 12.5%;
 	height: 50px;
 	border: none;
 	border-radius: 25px;
@@ -177,19 +179,21 @@ form input[type="submit"] {
 	background-color: rgba(0,0,0, 0.2);
 	color: white;
 	font-size: 16px;
+	letter-spacing: 5px;
 }
 
 .noAccount {
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 4.5vh;
 	z-index: 1;
+	line-height: 1.75em;
 }
 
 span {
 	color: white;
 	font-size: 12px;
 	text-align: center;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 a {
@@ -199,11 +203,12 @@ a {
 	font-size: 12px;
 }
 
-.loginBottom {
-	background: url(images/loginbottom.png) no-repeat;
-	background-size: cover;
-/*	margin-top: -140px;*/
-	z-index: 0;
-	min-height: 300px;
-	position: fixed: bottom: 0; left: 0;
+.loginScreen {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/loginbottom.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 100%;
 }
