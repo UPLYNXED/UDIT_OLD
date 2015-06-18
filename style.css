@@ -145,6 +145,13 @@ h2 {
 	letter-spacing: 2px;
 }
 
+h3 {
+	margin: 10vh 0;
+	color: white;
+	text-align: center;
+	font-size: 1.75em;
+}
+
 form input[type="text"], input[type="password"] {
 	font-family: 'montserratregular';
 	width: 75%;
@@ -211,4 +218,43 @@ a {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: 50% 100%;
+}
+
+.newsScreen {
+	width: 100%;
+	height: 100%;
+}
+
+/* NEWS SCREEN */
+
+section {
+	background-color: white;
+}
+
+article {
+	min-height: 11.5vh;
+	border-bottom: 1px solid lightgrey;
+	padding: 2vh;
+}
+
+.newsImage {
+	height: 11.5vh;
+	width: 11.5vh;
+	position: absolute;
+	background-color: black;
+}
+
+.newsScreen h1 {
+	font-size: 1em;
+}
+
+.newsTitle {
+	display: inline-block;
+	margin-left: 13.5vh;
+	vertical-align: top;
+	width: auto;
+}
+
+.newsTitle h4 {
+	font-size: 1em;
 }
