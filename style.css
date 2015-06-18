@@ -180,9 +180,9 @@ form input[type="submit"] {
 }
 
 .noAccount {
-	margin: 0 auto;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
+	z-index: 1;
 }
 
 span {
@@ -197,4 +197,13 @@ a {
 	width: 100%;
 	color: white;
 	font-size: 12px;
+}
+
+.loginBottom {
+	background: url(images/loginbottom.png) no-repeat;
+	background-size: cover;
+/*	margin-top: -140px;*/
+	z-index: 0;
+	min-height: 300px;
+	position: fixed: bottom: 0; left: 0;
 }

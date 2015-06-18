@@ -18,6 +18,9 @@
 				<a href="register.php">SIGN UP</a>
 				</span>
 			</div>
+			<div class="loginBottom">
+			</div>
 		</div>
+
 	</body>
 </html>
