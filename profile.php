@@ -11,7 +11,7 @@
 
 				<div class="meetupsText">
 				<h5>August 27, 2015</h5>
-				<h3>Wil je Anna neuken?</h3>
+				<h3>Anna</h3>
 
 				</div>
 			</div>
