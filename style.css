@@ -220,12 +220,15 @@ a {
 	background-position: 50% 100%;
 }
 
+/* NEWS SCREEN */
+
 .newsScreen {
 	width: 100%;
 	height: 100%;
+	background: linear-gradient(to bottom,  rgba(14,14,14,0.25) 0%,rgba(255,255,255,0) 20vh), url(images/newsheader.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
-
-/* NEWS SCREEN */
 
 section {
 	background-color: white;
@@ -244,7 +247,7 @@ article {
 	background-color: black;
 }
 
-.newsScreen h1 {
+.newsScreen h1, .meetupsScreen h1 {
 	font-size: 1em;
 }
 
@@ -258,3 +261,72 @@ article {
 .newsTitle h4 {
 	font-size: 1em;
 }
+
+/* MEET UPS SCREEN */
+
+.meetupsScreen {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top,  rgba(14,14,14,1) 0%,rgba(255,255,255,0) 100%), url(images/meetup.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.meetupsScreen h3 {
+	text-align: left;
+	padding-left: 15px;
+	margin: 0;
+	line-height: 36px;
+}
+
+.meetupsScreen h5 {
+	padding: 20px 0 20px 15px;
+	color: white;
+	opacity; 0.1;
+	font-family: 'montserratlight';
+	text-transform: uppercase;
+}
+
+.meetupsText {
+	position: fixed;
+    bottom: 0;
+    padding-bottom: 10vh;
+}
+
+a.accept {
+	text-transform: uppercase;
+    
+	padding-left: 15%;  
+    background: transparent url(images/tick.png) no-repeat top left;
+    
+	background-size: 5vh;
+    font-size: 2.4vh;
+    
+	text-align: left;
+    
+	height: 5vh;
+	display: inline-block;
+    
+	width: 25%;
+	margin: 0 0 0 15%;
+	line-height: 5vh;
+}    
+
+a.decline {
+	text-transform: uppercase;
+    
+	padding-left: 15%;  
+    background: transparent url(images/cross.png) no-repeat top left;
+    
+	background-size: 5vh;
+    font-size: 2.4vh;
+    
+	text-align: left;
+    
+	height: 5vh;
+	display: inline-block;
+    
+	width: 25%;
+	margin: 0 0 0 5%;
+	line-height: 5vh;
+}    
