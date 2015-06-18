@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('font/montserrat-bold-webfont.eot');
+    src: url('font/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/montserrat-bold-webfont.woff2') format('woff2'),
+         url('font/montserrat-bold-webfont.woff') format('woff'),
+         url('font/montserrat-bold-webfont.ttf') format('truetype'),
+         url('font/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('font/montserrat-hairline-webfont.eot');
+    src: url('font/montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/montserrat-hairline-webfont.woff2') format('woff2'),
+         url('font/montserrat-hairline-webfont.woff') format('woff'),
+         url('font/montserrat-hairline-webfont.ttf') format('truetype'),
+         url('font/montserrat-hairline-webfont.svg#montserrathairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('font/montserrat-light-webfont.eot');
+    src: url('font/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/montserrat-light-webfont.woff2') format('woff2'),
+         url('font/montserrat-light-webfont.woff') format('woff'),
+         url('font/montserrat-light-webfont.ttf') format('truetype'),
+         url('font/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('font/montserrat-regular-webfont.eot');
+    src: url('font/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('font/montserrat-regular-webfont.woff') format('woff'),
+         url('font/montserrat-regular-webfont.ttf') format('truetype'),
+         url('font/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'montserratregular';
+}
+
+.container {
+	max-width: 720px;
+	height: 100%;
+	background-color: #e41a18;
+	margin: 0 auto;
+}
+
+.container > h1 {
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-top: 7.5%;
+}
+
+.container > h2 {
+	font-family: 'montserratbold';
+	padding-top: 10%;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+form input[type="text"], input[type="password"] {
+	font-family: 'montserratregular';
+	width: 75%;
+	margin: 2.5% 12.5% 0% 12.5%;
+	height: 65px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5%;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+form input[type="checkbox"] {
+	margin-left: 12.5%;
+	margin-top: 2.5%;
+}
+
+label {
+	color: white;
+	font-size: 12px;
+	margin-left: 1%;
+}
+
+form input[type="submit"] {
+	font-family: 'montserratregular';
+	width: 75%;
+	margin: 2.5% 12.5% 0% 12.5%;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	background-color: rgba(0,0,0, 0.2);
+	color: white;
+	font-size: 16px;
+}
+
+.noAccount {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+span {
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+a {
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 12px;
+}
